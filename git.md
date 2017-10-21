@@ -137,7 +137,7 @@ To revert specific files to their state in `<commit>`:
 
 ```
 git reset <commit> <file>                # Revert in index.
-git checkout <commit> <file>             # Revert in working tree.
+git checkout <commit> <file>             # Revert in index and working tree.
 ```
 
 To remove untracked files from the working tree:
